@@ -1,5 +1,5 @@
 # 操我 CaoWo.com
-:sunglasses::sunglasses:操我吧 地址发布:sunglasses::sunglasses:
+:sunglasses::sunglasses:操我 地址发布:sunglasses::sunglasses:
 ==
 :heart: :point_right: 【地址一】 ：http://www.caowo7.com
 ------
