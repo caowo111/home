@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    background: #263149 url(../images/bg.jpg) top center no-repeat
+}
+
+.main {
+    position: relative;
+    height: 610px;
+    overflow: hidden;
+}
+
+@keyframes Updown {
+    from {
+        margin-top: -6px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+}
+
+.man {
+    background: url(../images/man.png) no-repeat;
+    width: 392px;
+    height: 572px;
+    position: absolute;
+    left: 24px;
+    top: 14px;
+    animation: 1s ease 0s alternate none infinite running Updown;
+    z-index: 2
+}
+
+.manbg {
+    background: url(../images/manbg.png) no-repeat;
+    width: 413px;
+    height: 254px;
+    position: absolute;
+    left: 70px;
+    top: 178px;
+}
+
+.logo {
+    background: url(../images/logo.png) no-repeat;
+    width: 320px;
+    height: 124px;
+    position: absolute;
+    top: 82px;
+    right: 136px;
+    display: block
+}
+
+.luck {
+    background: url(../images/luck.png) no-repeat;
+    width: 350px;
+    height: 113px;
+    position: absolute;
+    right: 112px;
+    top: 220px;
+}
+
+.con {
+    margin-top: 430px;
+    background: url(../images/conbg.png) no-repeat;
+    height: 165px;
+    position: relative;
+    z-index: 99
+}
+
+.con .title {
+    height: 49px;
+    line-height: 49px;
+}
+
+.con .title p {
+    margin-left: 22px;
+    color: #fff;
+    font-size: 18px;
+    float: left
+}
+
+.con .title p span {
+    color: #00cba4;
+    margin-right: 5px;
+}
+
+.con .title .refresh {
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+    margin-right: 16px;
+}
+
+.con .title .refresh i {
+    display: inline-block;
+    background: url(../images/refresh.png) no-repeat;
+    width: 19px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.con ul li {
+    float: left;
+    background: url(../images/libg.png) no-repeat;
+    width: 155px;
+    height: 105px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative
+}
+
+.con ul li span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #acbfec;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.con ul li a {
+    display: block;
+    height: 105px;
+    line-height: 26px;
+    text-align: center;
+    overflow: hidden
+}
+
+.con ul li a h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+
+.con ul li a p {
+    color: #fff100;
+    font-size: 16px;
+    transition: all 0.3s
+}
+
+.con ul li a:hover h3,
+.con ul li a:hover p {
+    color: #57f9e9
+}
+
+.con ul li i {
+    display: block;
+    background: url(../images/ico.png) no-repeat;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 22px;
+    transition: all 0.3s
+}
+
+.con ul li i.i1 {
+    background-position: 0 0;
+    width: 34px;
+}
+
+.con ul li i.i2 {
+    background-position: -34px 0;
+    width: 41px;
+}
+
+.con ul li i.i3 {
+    background-position: -75px 0;
+    width: 40px;
+}
+
+.con ul li i.i4 {
+    background-position: -115px 0;
+    width: 35px;
+}
+
+.con ul li i.i5 {
+    background-position: -150px 0;
+    width: 49px;
+}
+
+.con ul li i.i6 {
+    background-position: -199px 0;
+    width: 34px;
+}
+
+.con ul li h2 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 33px;
+    transition: all 0.3s
+}
+
+.con ul li:hover i.i1 {
+    background-position: 0 -35px;
+}
+
+.con ul li:hover i.i2 {
+    background-position: -34px -35px;
+}
+
+.con ul li:hover i.i3 {
+    background-position: -75px -35px;
+}
+
+.con ul li:hover i.i4 {
+    background-position: -115px -35px;
+}
+
+.con ul li:hover i.i5 {
+    background-position: -150px -35px;
+}
+
+.con ul li:hover i.i6 {
+    background-position: -199px -35px;
+}
+
+.con ul li:hover h2 {
+    color: #57f9e9
+}
+
+.footer {
+    color: #6879a0;
+    line-height: 20px;
+    text-align: center
+}

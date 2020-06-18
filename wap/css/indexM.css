@@ -1,0 +1,309 @@
+@charset "utf-8";
+body {
+  font: 400 14px/1.5 "\5FAE\8F6F\96C5\9ED1", Helvetica;
+  color: #000;
+  background-color: #2b2b2b;
+  -webkit-text-size-adjust: none;
+}
+body,
+div,
+dl,
+dt,
+dd,
+del,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+menu {
+  margin: 0;
+  padding: 0;
+}
+input[type=text],
+textarea {
+  -webkit-appearance: none;
+  outline: 0;
+}
+button {
+  outline: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+}
+header,
+section,
+footer {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #101010;
+  text-decoration: none;
+}
+.dn {
+  display: none;
+}
+.oh {
+  overflow: hidden;
+}
+html,
+* {
+  outline: 0;
+}
+input {
+  -webkit-appearance: none;
+}
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left;
+}
+.tr {
+  text-align: right;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+html {
+  font-size: 100px;
+}
+body {
+  font-size: 12px;
+}
+.head {
+  width: 100%;
+  height: 0.6rem;
+  background: url(../images/headLineM.jpg) repeat left top;
+  position: relative;
+}
+.head_top {
+  height: 0.6rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo img {
+  width: 0.78rem;
+  height: 0.68rem;
+}
+.head_center {
+  width: 2.25rem;
+  height: 0.615rem;
+}
+.head_right img {
+  width: 0.855rem;
+  height: auto;
+}
+.line {
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background: #220303;
+  margin: 0 13px;
+}
+.Hline {
+  position: absolute;
+  bottom: -10.5px;
+  clear: both;
+  width: 100%;
+  height: 21px;
+  background: url(../images/line2.png) no-repeat center 0;
+}
+.main {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.texPro {
+  padding: 0.25rem 0.1rem 0.175rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.texPro img {
+  width: 32%;
+}
+.list {
+  margin: 0 0.1rem;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+}
+.list > img {
+  width: 100%;
+  display: block;
+}
+.line_list {
+  background: url(../images/bg-con.png) top center;
+  background-size: 100% auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 0.16rem;
+}
+.li_list {
+  float: left;
+  width: 90%;
+  margin-left: 3%;
+  height: 0.52rem;
+  background: url(../images/check2.png) no-repeat center center;
+  background-size: 100% 100%;
+  position: relative;
+}
+.li_list a {
+  display: inline-block;
+  height: 0.3rem;
+  margin: 0.11rem 0 0 0.08rem;
+  width: 100%;
+}
+.address {
+  float: left;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  color: #e5d416;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 20px;
+  width: 80%;
+}
+.website {
+  float: left;
+  width: 35%;
+  text-align: center;
+}
+.speed {
+  float: left;
+  width: 1.27rem;
+  height: 0.3rem;
+  line-height: 0.3re.m;
+  text-align: center;
+  padding-left: 0.05rem;
+  box-sizing: border-box;
+}
+.into {
+  display: block;
+  position: absolute;
+  right: 0.12rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  color: #ffe06f;
+  font-size: 16px;
+  padding-left: 0.12rem;
+  box-sizing: border-box;
+}
+.heart {
+  margin-top: 0.1rem;
+  text-align: center;
+  padding: 0 0.1rem;
+}
+.heart .heartP {
+  float: left;
+}
+.heart .heartImg {
+  vertical-align: middle;
+}
+.heart .tis {
+  color: #ff0000;
+}
+.heartFont {
+  vertical-align: middle;
+  font-size: 0.1rem;
+  color: #ffd744;
+}
+.heartFont span {
+  display: block;
+  color: #ffd744;
+}
+.btn img {
+  width: 1.25rem;
+  height: auto;
+}
+body {
+  padding-bottom: 0.5rem;
+  background: #041220;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto !important;
+}
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #222222;
+  display: flex;
+  border-top: 1px solid #222222;
+}
+.nav a {
+  flex: 1;
+  text-align: center;
+  padding: 5px 0;
+  color: #888888;
+  font-size: 10px;
+}
+.nav a img {
+  width: 25px;
+  display: inline-block;
+}
+/*# sourceMappingURL=indexM.css.map */

@@ -1,0 +1,24 @@
+/*css*/
+/*Ä…Ã­Â¸Å„ÄÅ¢Ä˜ÃŽ*/
+
+.STYLE1 {
+    color: #000000;
+
+}
+
+.tablelist {
+    border: 1px solid #0058a3;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 1pt;
+    background-color: #eaf5ff;
+    font-size: 13px
+}
+
+.tablelist tr.backrow {
+    background-color: #c7e5ff;
+}
+
+.tablelist td.cen {
+    text-align: center;
+}
